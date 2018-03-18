@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  mongodb:
+    container_name: mongodb_savper
+    image: mongo:3.4
+    ports:
+      - "27018:27017"
+    volumes:
+      - ./mongodb-dependencies:/mongodb-dependencies
+    command: bash /mongodb-dependencies/init-mongo.sh
+

@@ -1,0 +1,22 @@
+#action-menu {
+  margin: auto;
+  width: 21%;
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+  width: 60%;
+}
+
+.table td,th{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 20ch;
+}
+
+.files-dropzone{
+  width: 100%;
+  height: 100%;
+}
