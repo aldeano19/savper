@@ -94,8 +94,6 @@ class App extends React.Component{
       }
     }
 
-
-
 		return (
       <div id="page1">
         <div id="action-menu">
@@ -104,11 +102,7 @@ class App extends React.Component{
 
           <ReactUploadFile 
             options={options} 
-            chooseFileButton={<SearchFilesContainer />} 
-            uploadFileButton={<SearchFilesContainer />} />
-
-          
-          
+            chooseFileButton={<SearchFilesContainer />} />
         </div>
         <Table
           fileList={this.state.fileList}
